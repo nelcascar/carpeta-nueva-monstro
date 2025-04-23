@@ -1,0 +1,63 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(227, 184, 255, 1) 0%,
+    rgba(178, 161, 255, 1) 51%,
+    rgba(185, 190, 255, 0.9108018207282913) 100%
+  );
+}
+.banner-superior h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.banner-superior h1:hover {
+  color: rgb(14, 150, 150);
+  transition: all 3s ease-in-out;
+  font-size: 50px;
+}
+.pokemons-list {
+  background-color: blueviolet;
+}
+
+.pokemon-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 8px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.card img {
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+.plant-card {
+  background-color: rgb(85, 148, 85);
+}
+.fire-card {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(164, 80, 59, 1) 100%
+  );
+}
+.water-card {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(28, 134, 167, 1) 100%
+  );
+}
+.water-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+}

@@ -1,0 +1,14 @@
+div {
+  color: red;
+  background-color: rgb(212, 237, 100);
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+.banner-superior h1: {
+  font-size: 80px;
+}
+.banner-superior h1:hover {
+  color: blue;
+  transition: all 2s ease-in-out;
+  font-size: 50px;
+}
